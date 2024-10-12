@@ -112,11 +112,67 @@
     letter-spacing: -3px;
   }
 
-.nav-btn {
-    color:#525ffb ;
-    border: 2px solid #525ffb;
-}
-.nav-btn:hover {
+  .hero-h1 {
+    padding-top: 120px;
+  }
+
+  .hero-p {
+    color: rgb(161, 161, 161);
+  }
+
+  .trust-text {
+    color:#525ffb;
+    font-size: 8rem;
+  }
+
+
+  /* buttons */
+  .nav-btn {
+      color:#525ffb;
+      border: 2px solid #525ffb;
+  }
+  .nav-btn:hover {
+      color: white;
+      background-color: #525ffb;
+  }
+
+  .search-btn {
     color: white;
-    background-color: #525ffb ;
-}
+    background-color: #525ffb;
+  }
+
+  .search-btn:hover {
+    color: white;
+    background-color: #525ffb;
+  }
+
+  .hero-input::placeholder {
+    color: rgb(214, 214, 214);
+  }
+
+  .footer-input {
+    width: 20%;
+  }
+
+  .footer-input::placeholder {
+    color: rgb(214, 214, 214);
+  }
+  
+  /* cards */
+  .card.one {
+    background-color: #525ffb;
+    color: white;
+    font-size: 10px;
+  }
+
+  .card.two {
+    background-color: #f0f4fc;
+    font-size: 10px;
+
+  }
+
+  .card.three {
+    background-color: #ffe4ac;
+    font-size: 10px;
+
+  }
