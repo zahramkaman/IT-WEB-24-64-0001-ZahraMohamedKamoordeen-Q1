@@ -55,11 +55,10 @@ function submitForm () {
         const error1 = document.querySelector("#error1")
         error1.innerHTML = "Please enter your name";
         submit = false;
-        console.log("work");
     } else {
         error1.innerHTML = "";
         submit = true;
-    }
+    };
 
     if (lastName === "") {
         const error2 = document.querySelector("#error2")
@@ -68,7 +67,7 @@ function submitForm () {
     } else {
         error2.innerHTML = "";
         submit = true;
-    }
+    };
 
     if (email === "") {
         const error3 = document.querySelector("#error3")
@@ -77,7 +76,7 @@ function submitForm () {
     } else {
         error3.innerHTML = "";
         submit = true;
-    }  
+    }; 
 
     if (number === "") {
         const error4 = document.querySelector("#error4")
@@ -86,6 +85,5 @@ function submitForm () {
     } else {
         error4.innerHTML = "";
         submit = true;
-    }  
-
-}
+    };  
+};
