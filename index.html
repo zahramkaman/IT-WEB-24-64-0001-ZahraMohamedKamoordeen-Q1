@@ -20,7 +20,8 @@
         <div class="container">
           <a class="navbar-brand poppins-bold fs-1" href="#" style="color: #525ffb;">Taskia</a>
           <div class=" d-flex justify-content-end" id="navbarSupportedContent">  
-            <button class="nav-btn btn btn-outline-secondary rounded-pill py-2 px-4 poppins-semibold" type="button">Try free </button> 
+            <button class="nav-btn btn btn-outline-secondary rounded-pill py-2 px-4 poppins-semibold" 
+            type="button" data-bs-toggle="modal" data-bs-target="#register">Try free </button> 
           </div>
         </div>
       </nav>
@@ -149,7 +150,7 @@
                     <img src="Images/Image 4.jpg" class="card-img-top w-50" alt="staff1">
                   </div>
                   <div class="col align-self-center pt-5 mt-5 mb-5 pb-5   ">
-                    <p class="rel-text display-1 poppins-extrabold">100 000</p>
+                    <p class="color-text display-1 poppins-extrabold">100 000</p>
                   </div>
                   <div class="col-lg-4 align-self-end mt-lg-5">
                     <img src="Images/Image 5.jpg" class="card-img-top mt-lg-5 pt-lg-5 w-75" alt="staff2">
@@ -181,7 +182,53 @@
       
 
     </div>
-        
+
+    <!-- modal form -->
+    <div class="modal fade" id="register" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title poppins-extrabold color-text fs-1" id="exampleModalLabell">Register Now</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class="poppins-medium">Enter your information for a free trial</p>
+
+                    <form>
+                        <div class="mb-2">
+                            <label for="first-name" class="col-form-label">First Name</label>
+                            <input type="text" class="form-control" id="firstName">
+                            <div id="error1" class="text-danger"></div>
+                        </div>
+
+                        <div class="mb-2">
+                            <label for="last-name" class="col-form-label">Last Name</label>
+                            <input type="text" class="form-control" id="lastName">
+                            <div id="error2" class="text-danger"></div>
+                        </div>
+
+                        <div class="mb-2">
+                            <label for="email" class="col-form-label">Email</label>
+                            <input type="email" class="form-control" id="email">
+                            <div id="error3" class="text-danger"></div>
+                        </div>
+
+                        <div class="mb-2">
+                            <label for="number" class="col-form-label">Number</label>
+                            <input type="tel" class="form-control" id="number">
+                            <div id="error4" class="text-danger"></div>
+                        </div>
+                    </form>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="search-btn btn btn-primary" id="submitBtn">Submit</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
       
 
     <!-- bootstrap -->
