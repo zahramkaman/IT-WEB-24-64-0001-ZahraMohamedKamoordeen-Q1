@@ -1,6 +1,6 @@
 let submit = true;
 
-// hero button
+// hero input validation
 const button = document.querySelector("#info-btn");
 
 button.addEventListener('click', emailId)
@@ -19,7 +19,7 @@ function emailId () {
     }
 };
 
-// footer button
+// footer input validation
 const button2 = document.querySelector("#info-btn-2");
 
 button2.addEventListener('click', emailId2)
@@ -87,3 +87,18 @@ function submitForm () {
         submit = true;
     };  
 };
+
+
+// card hover effect
+
+const cards = document.querySelectorAll(".card");
+
+cards.forEach(function (card) {
+    card.addEventListener('mouseover', function () {
+        card.style.transform = 'scale(1.1)'
+    });
+
+    card.addEventListener('mouseout', function () {
+        card.style.transform = 'scale(1)'
+    });
+});
