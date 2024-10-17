@@ -53,7 +53,7 @@ function submitForm () {
 
     if (firstName === "") {
         const error1 = document.querySelector("#error1")
-        error1.innerHTML = "Please enter your name";
+        error1.innerHTML = "Please enter your first name";
         submit = false;
     } else {
         error1.innerHTML = "";
@@ -62,7 +62,7 @@ function submitForm () {
 
     if (lastName === "") {
         const error2 = document.querySelector("#error2")
-        error2.innerHTML = "Please enter your name";
+        error2.innerHTML = "Please enter your last name";
         submit = false;
     } else {
         error2.innerHTML = "";
