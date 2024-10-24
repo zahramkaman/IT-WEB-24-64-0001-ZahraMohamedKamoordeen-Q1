@@ -19,8 +19,8 @@ Prerequisites:
 - any code editor. Eg., VS Code.
 
 How to run the website:
-step 1 - clone the repository from github
-step 2 - directly open the index.html in your web browser or use live server in a code editor.
+- step 1 - clone the repository from github
+- step 2 - directly open the index.html in your web browser or use live server in a code editor.
 
 Customization:
 - to change style, edit the style.css file or inline css using bootstrap.
